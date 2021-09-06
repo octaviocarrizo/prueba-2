@@ -1,0 +1,110 @@
+/*Celular Index(Menu)*/
+@media only screen and (min-width: 375px) and (max-width: 667px){
+
+.ArribaIndex{
+	background-color: black;
+    margin: -20px 3px -8px 3px;
+	&--imagenDelLogoH{
+	margin: 7px 1px -7px 7px;
+	}
+	&--TituloI{
+	color: White;
+    position: absolute;
+    right: 55px;
+    bottom: 565px;
+    left: auto;
+    }
+    &--ImagenI{
+    margin: 7px 1px -7px 7px;
+    }
+}
+.IndexBusqueda{
+	font-size: 16px;
+    padding: 1px 10px 1px 5px;
+    background-color: white;
+    border: 0;
+    border-radius: 6px;
+    color: black;
+}
+.LoMasPopular {
+    margin: 5px 4px 5px 55px;
+    width: 329px;
+    color: black;
+    font-family: 'Merriweather', serif;
+}
+.ContenedorLoMasPopular{
+	background-color: white;
+    margin: 15px 0px 15px -16px;
+}
+.LoUltimoVisto{
+    margin: 5px 4px 5px 92px;
+    width: 292px;
+    color: black;
+    font-family: 'Merriweather', serif;
+}
+.ContenedorUltimoVisto{
+	background-color: white;
+    margin: 15px 0px 15px -16px;
+}
+.TextProduc{
+	&__Tamaño{
+    width: 112px;
+    font-size: 30px;
+    margin: 7px 0px 0px 25px;
+    &--Estilo{
+	font-family: initial;
+	color: black;
+	}
+	}
+	&--CambioP{
+    color: green;
+    font-size: 18px;
+    width: 193px;
+    margin: 0px 2px 5px 11px;
+
+	}
+	&--ColorP{
+		color: green;
+		margin: 0px 0px 22px 11px;
+	}	
+}
+.ContenedorProducto{
+	display: flex;
+    width: 80%;
+    margin: 0px 1px 0px 28px;
+    border: 0px;
+    flex-wrap: wrap;
+    &--Productos{
+    margin: 10px 0px 0px 13px;
+    border-radius: 14px;
+    cursor: pointer;
+    }
+    &--Text{
+    margin: 0px 0px 0px 10px;
+    font-size: 14px;
+    color: black;
+    }
+    &--Productos:hover{
+	transition: 1s;
+	border-color: black;
+	}
+	&--Img{
+	margin: 19px 0px 0px 0px;
+	}
+	&--Img2{
+	margin: 19px 0px 0px 0px;
+	}
+	&--Img3{
+	margin: 19px 0px 0px 0px;
+	}
+}
+
+.SocialDelIndex{
+	margin: 0px 0px -41px 0px;
+	text-align: right;
+		&--TamañoIndex{
+		width:40px;
+		}
+}
+
+}

@@ -1,0 +1,1366 @@
+@charset "UTF-8";
+/*Index*/
+.ArribaIndex {
+  background-color: black;
+  margin: -20px 3px -8px 3px; }
+  .ArribaIndex--imagenDelLogoH {
+    margin: 7px 1px -7px 7px; }
+  .ArribaIndex--TituloI {
+    color: White;
+    position: absolute;
+    left: 895px;
+    right: 8px;
+    bottom: 838px;
+    font-size: 40px;
+    font-family: initial; }
+  .ArribaIndex--ImagenI {
+    margin: 7px 1px -7px 7px; }
+
+.IndexBusqueda {
+  font-size: 16px;
+  padding: 1px 10px 1px 5px;
+  background-color: white;
+  border: 0;
+  border-radius: 6px;
+  color: black; }
+
+.LoMasPopular {
+  margin: 5px 4px 5px 445px;
+  width: 724px;
+  color: black;
+  font-family: 'Merriweather', serif; }
+
+.ContenedorLoMasPopular {
+  background-color: white;
+  margin: 15px 0px 15px -16px; }
+
+.LoUltimoVisto {
+  margin: 5px 4px 5px 445px;
+  width: 724px;
+  color: black;
+  font-family: 'Merriweather', serif; }
+
+.ContenedorUltimoVisto {
+  background-color: white;
+  margin: 15px 0px 15px -16px; }
+
+.TextProduc__Tamaño {
+  width: 112px;
+  font-size: 30px;
+  margin: 7px 0px 0px 25px; }
+  .TextProduc__Tamaño--Estilo {
+    font-family: initial;
+    color: black; }
+
+.TextProduc--CambioP {
+  color: green;
+  font-size: 18px;
+  width: 193px;
+  margin: 0px 2px 5px 11px; }
+
+.TextProduc--ColorP {
+  color: green;
+  margin: 0px 0px 22px 11px; }
+
+.ContenedorProducto {
+  display: flex;
+  width: 70%;
+  margin: 0px 0px 0px 345px;
+  border: 1px; }
+  .ContenedorProducto--Productos {
+    margin: 0px 0px 0px 13px;
+    border-radius: 14px;
+    cursor: pointer; }
+  .ContenedorProducto--Text {
+    margin: 0px 0px 0px 10px;
+    font-size: 14px;
+    color: black; }
+  .ContenedorProducto--Productos:hover {
+    transition: 1s;
+    border-color: black; }
+  .ContenedorProducto--Img {
+    margin: 19px 0px 0px 0px; }
+  .ContenedorProducto--Img2 {
+    margin: 19px 0px 0px 0px; }
+  .ContenedorProducto--Img3 {
+    margin: 19px 0px 0px 0px; }
+
+.SocialDelIndex {
+  margin: 0px 0px -41px 0px;
+  text-align: right; }
+  .SocialDelIndex--TamañoIndex {
+    width: 40px; }
+
+/*Inicio De Sesion*/
+.ArribaSesion {
+  background-color: black;
+  margin: -20px 3px -8px 3px; }
+  .ArribaSesion--imagenDelLogoH {
+    margin: 7px 1px -7px 7px; }
+  .ArribaSesion--TituloS {
+    color: White;
+    position: absolute;
+    left: 895px;
+    right: 8px;
+    bottom: 838px;
+    font-size: 40px;
+    font-family: initial; }
+  .ArribaSesion--ImagenS {
+    margin: 7px 1px -7px 7px; }
+
+.InicioDeSesion {
+  padding: 77px;
+  border: 1px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  margin: 80px 457px 80px 482px; }
+  .InicioDeSesion__Titulo {
+    font-size: 40px; }
+    .InicioDeSesion__Titulo--Decoracion {
+      font-family: erif;
+      text-align: center; }
+
+.BotonDeInicioDeSesion {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 6px;
+  padding: 7px;
+  font-size: 17px;
+  width: 120px;
+  margin-left: 344px; }
+
+.form-control {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid;
+  background-color: transparent;
+  border-radius: 2px; }
+
+.BotonDeInicioDeSesion:hover {
+  background-color: green;
+  border-color: green; }
+
+.Social {
+  margin: 0px 0px -41px 0px;
+  text-align: right; }
+  .Social--Tamaño {
+    width: 40px; }
+
+/*Crear Cuenta*/
+.CrearCuenta {
+  padding: 77px;
+  border: 1px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  margin: 82px 467px 111px 480px; }
+  .CrearCuenta__Titulo {
+    Text-align: Center; }
+    .CrearCuenta__Titulo--Tamaño {
+      font-family: erif; }
+  .CrearCuenta__Nombre {
+    margin: 28px 26px 31px 25px; }
+    .CrearCuenta__Nombre--Estilo {
+      display: initial;
+      width: 222px;
+      padding: 7px;
+      border: none;
+      margin: 15px -86px 30px 140px;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 1px solid;
+      background-color: transparent;
+      border-radius: 2px; }
+    .CrearCuenta__Nombre--Estilos {
+      width: 350px;
+      padding: 7px;
+      border: none;
+      margin: 10px 400px 15px 140px;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 1px solid;
+      background-color: transparent;
+      border-radius: 2px; }
+
+.EleccionCrearCuenta {
+  width: 17px;
+  background: #ffffff00;
+  border: 0;
+  color: black;
+  margin: 0px 0px 0px 0px;
+  position: absolute;
+  bottom: 310px;
+  left: 700px; }
+
+.EleccionCrearCuenta:hover {
+  transition: 0.5s;
+  width: 111px; }
+
+.Terminos {
+  margin: 10px 0px 0px 140px; }
+
+.botonDeCrearCuenta {
+  margin: 4px 23px -42px 327px; }
+  .botonDeCrearCuenta--Diseño {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 6px;
+    padding: 7px;
+    font-size: 16px; }
+  .botonDeCrearCuenta--Diseño:hover {
+    transition: 0.5s;
+    color: #fff;
+    background-color: green;
+    border-color: green; }
+
+.ArribaCrear {
+  background-color: black;
+  margin: -20px 3px -8px 3px; }
+  .ArribaCrear--imagenDelLogoH {
+    margin: 7px 1px -7px 7px; }
+  .ArribaCrear--TituloC {
+    color: White;
+    position: absolute;
+    left: 895px;
+    right: 8px;
+    bottom: 838px;
+    font-size: 40px;
+    font-family: initial; }
+  .ArribaCrear--ImagenC {
+    margin: 7px 1px -7px 7px; }
+
+/*Historial*/
+.Arriba {
+  background-color: black;
+  margin: -20px 3px -8px 3px; }
+  .Arriba--imagenDelLogoH {
+    margin: 7px 1px -7px 7px; }
+  .Arriba--LogoHistorial {
+    color: White;
+    position: absolute;
+    left: 895px;
+    right: 8px;
+    bottom: 838px;
+    font-size: 40px;
+    font-family: initial; }
+
+.Titulos {
+  text-align: center;
+  border: none;
+  padding: 20px;
+  margin: 175px 500px 335px 489px;
+  background-color: #101010a3;
+  border-radius: 9px; }
+  .Titulos--Tamaños {
+    font-size: 30px;
+    font-family: initing;
+    color: white;
+    bacgraund: black; }
+
+/*General*/
+body {
+  background-color: #cacaca; }
+
+.Barra {
+  background-color: grey;
+  margin: 0px 3px 0px 3px; }
+
+/*Contacto*/
+.ArribaContacto {
+  background-color: black;
+  margin: -20px 3px -8px 3px; }
+  .ArribaContacto--imagenDelLogoH {
+    margin: 7px 1px -7px 7px; }
+  .ArribaContacto--TituloContacto {
+    color: White;
+    position: absolute;
+    left: 895px;
+    right: 8px;
+    bottom: 838px;
+    font-size: 40px;
+    font-family: initial; }
+  .ArribaContacto--ImagenContacto {
+    margin: 7px 1px -7px 7px; }
+
+.Contacto {
+  padding: 77px;
+  border: 1px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  margin: 82px 467px 111px 480px; }
+  .Contacto--TituloCuestionario {
+    text-align: center;
+    font-family: erif; }
+  .Contacto--TextoContacto {
+    font-size: 17px;
+    background: transparent;
+    display: initial;
+    width: 222px;
+    padding: 7px;
+    border: none;
+    margin: 15px -86px 30px 140px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    border-radius: 2px; }
+  .Contacto--TextoContacto2 {
+    font-size: 17px;
+    background: transparent;
+    display: initial;
+    width: 222px;
+    padding: 7px;
+    border: none;
+    margin: 15px -86px 30px 140px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    border-radius: 2px; }
+  .Contacto--TextoContacto3 {
+    font-size: 17px;
+    display: initial;
+    width: 222px;
+    padding: 7px;
+    border: none;
+    margin: 15px 160px 30px 140px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    border-radius: 2px; }
+  .Contacto--TextoContacto4 {
+    font-size: 17px;
+    background: transparent;
+    display: initial;
+    width: 222px;
+    padding: 7px;
+    border: none;
+    margin: 15px -86px 30px 140px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    border-radius: 2px; }
+
+.Eleccion {
+  width: 20px;
+  background: transparent;
+  border: 0;
+  color: gray;
+  margin: 0px 0px 0px 140px; }
+
+.Eleccion:focus {
+  transition: 0.5s;
+  width: 111px; }
+
+.Consentimiento {
+  margin: 4px -25px 14px 145px; }
+
+.BotonDeContactanos {
+  margin: 4px 24px -41px 351px; }
+  .BotonDeContactanos--Diseño {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 6px;
+    padding: 7px;
+    font-size: 17px;
+    width: 90px; }
+  .BotonDeContactanos--Diseño:hover {
+    color: #fff;
+    background-color: green;
+    border-color: green;
+    border-radius: 6px;
+    padding: 7px;
+    font-size: 17px;
+    width: 90px; }
+
+/*Crea tu Pc*/
+.ArribaCrearPc {
+  background-color: black;
+  margin: -20px 3px -8px 3px; }
+  .ArribaCrearPc--ImagenCrearPc {
+    margin: 7px 1px -7px 7px; }
+  .ArribaCrearPc--TituloCrearPc {
+    color: White;
+    position: absolute;
+    left: 895px;
+    right: 8px;
+    bottom: 838px;
+    font-size: 40px;
+    font-family: initial; }
+
+.Seleccionado1 {
+  padding: 0px;
+  margin: 6px 1px 2px 59px;
+  background: transparent;
+  border: transparent;
+  border-radius: 5px; }
+  .Seleccionado1__estilo {
+    width: auto;
+    font-size: 0px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 0px;
+    cursor: pointer; }
+
+.Seleccionado2 {
+  padding: 0px;
+  margin: 6px 1px 2px 0px;
+  background: transparent;
+  border: transparent;
+  border-radius: 5px; }
+  .Seleccionado2__estilo {
+    width: auto;
+    font-size: 0px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 0px;
+    cursor: pointer; }
+
+.Seleccionado3 {
+  padding: 0px;
+  margin: 6px 1px 2px 0px;
+  background: transparent;
+  border: transparent;
+  border-radius: 5px; }
+  .Seleccionado3__estilo {
+    width: auto;
+    font-size: 0px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 0px;
+    cursor: pointer; }
+
+.Seleccionado4 {
+  padding: 0px;
+  margin: 6px 1px 2px 0px;
+  background: transparent;
+  border: transparent;
+  border-radius: 5px; }
+  .Seleccionado4__estilo {
+    width: auto;
+    font-size: 0px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 0px;
+    cursor: pointer; }
+
+.Seleccionado5 {
+  padding: 0px;
+  margin: 6px 1px 2px 0px;
+  background: transparent;
+  border: transparent;
+  border-radius: 5px; }
+  .Seleccionado5__estilo {
+    width: auto;
+    font-size: 0px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 0px;
+    cursor: pointer; }
+
+.Seleccionado6 {
+  padding: 0px;
+  margin: 6px 1px 2px 0px;
+  background: transparent;
+  border: transparent;
+  border-radius: 5px; }
+  .Seleccionado6__estilo {
+    width: auto;
+    font-size: 0px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 0px;
+    cursor: pointer; }
+
+.Seleccionado7 {
+  padding: 0px;
+  margin: 6px 1px 2px 138px;
+  background: transparent;
+  border: transparent;
+  border-radius: 5px; }
+  .Seleccionado7__estilo {
+    width: auto;
+    font-size: 0px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 0px;
+    cursor: pointer; }
+
+.Seleccionado8 {
+  padding: 0px;
+  margin: 6px 1px 2px 0px;
+  background: transparent;
+  border: transparent;
+  border-radius: 5px; }
+  .Seleccionado8__estilo {
+    width: auto;
+    font-size: 0px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 0px;
+    cursor: pointer; }
+
+.Seleccionado9 {
+  padding: 0px;
+  margin: 6px 1px 2px 0px;
+  background: transparent;
+  border: transparent;
+  border-radius: 5px; }
+  .Seleccionado9__estilo {
+    width: auto;
+    font-size: 0px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 0px;
+    cursor: pointer; }
+
+.Seleccionado10 {
+  padding: 0px;
+  margin: 6px 1px 2px 0px;
+  background: transparent;
+  border: transparent;
+  border-radius: 5px; }
+  .Seleccionado10__estilo {
+    width: auto;
+    font-size: 0px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 0px;
+    cursor: pointer; }
+
+.Seleccionado11 {
+  padding: 0px;
+  margin: 6px 1px 2px 0px;
+  background: transparent;
+  border: transparent;
+  border-radius: 5px; }
+  .Seleccionado11__estilo {
+    width: auto;
+    font-size: 0px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 0px;
+    cursor: pointer; }
+
+.Seleccionado1:focus {
+  background-color: white; }
+
+.Seleccionado2:focus {
+  background-color: white; }
+
+.Seleccionado3:focus {
+  background-color: white; }
+
+.Seleccionado4:focus {
+  background-color: white; }
+
+.Seleccionado5:focus {
+  background-color: white; }
+
+.Seleccionado6:focus {
+  background-color: white; }
+
+.Seleccionado7:focus {
+  background-color: white; }
+
+.Seleccionado8:focus {
+  background-color: white; }
+
+.Seleccionado9:focus {
+  background-color: white; }
+
+.Seleccionado10:focus {
+  background-color: white; }
+
+.Seleccionado11:focus {
+  background-color: white; }
+
+/*Producto*/
+.ArribaProducto {
+  background-color: black;
+  margin: -20px 3px -8px 3px; }
+  .ArribaProducto--ImagenProducto {
+    margin: 7px 1px -7px 7px; }
+  .ArribaProducto--TituloProducto {
+    color: White;
+    position: absolute;
+    left: 895px;
+    right: 8px;
+    bottom: 838px;
+    font-size: 40px;
+    font-family: initial; }
+
+.PosicionProducto {
+  position: absolute;
+  bottom: 344px;
+  left: 860px; }
+  .PosicionProducto--Precio {
+    position: absolute;
+    bottom: 75px;
+    left: 175px;
+    font-size: 33px; }
+  .PosicionProducto--cuotas {
+    position: absolute;
+    bottom: 51px;
+    left: 178px;
+    font-size: 24px;
+    color: #5bb15b; }
+  .PosicionProducto--Stock {
+    position: absolute;
+    bottom: 213px;
+    left: 470px;
+    font-size: 18px;
+    color: #ffffff;
+    width: 155px;
+    font-family: serif;
+    background: green;
+    border-radius: 5px;
+    padding: 6px; }
+  .PosicionProducto--Nombre {
+    position: absolute;
+    width: 500px;
+    bottom: 201px;
+    right: -280px;
+    font-size: 40px; }
+
+.DemostracionDelProducto {
+  border: 1px solid;
+  display: grid;
+  width: 1100px;
+  padding: 59px 0px 57px 29px;
+  margin-top: 100px;
+  border-radius: 4px;
+  grid-template-columns: 70px;
+  grid-template-rows: 0px 70px 70px 70px 70px;
+  grid-column-gap: 0px;
+  grid-row-gap: 19px;
+  margin: 0px 395px 60px; }
+  .DemostracionDelProducto--estilo {
+    margin: 0px 120px; }
+  .DemostracionDelProducto--estilo2 {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: white; }
+  .DemostracionDelProducto--estilo3 {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: white; }
+  .DemostracionDelProducto--estilo4 {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: white; }
+  .DemostracionDelProducto--estilo5 {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: white; }
+
+.ProductoVenta {
+  position: absolute;
+  left: 1170px;
+  bottom: 170px; }
+  .ProductoVenta--Carrito {
+    position: absolute;
+    left: 98px;
+    bottom: 86px;
+    width: 160px;
+    font-size: 17px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 6px;
+    padding: 7px; }
+  .ProductoVenta--Cantidad {
+    position: absolute;
+    left: 118px;
+    bottom: 41px;
+    width: 125px;
+    font-size: 15px;
+    color: #000;
+    background-color: #00bcd4;
+    border-color: #b4b8bd00;
+    border-radius: 6px;
+    padding: 7px; }
+  .ProductoVenta--BotonDeComprar {
+    position: absolute;
+    bottom: -3px;
+    left: 134px;
+    font-size: 17px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 6px;
+    padding: 3px;
+    width: 93px; }
+  .ProductoVenta--BotonDeComprar:hover {
+    transition: 1s;
+    background-color: green;
+    border-color: green; }
+
+.Relleno {
+  margin-top: 140px; }
+
+/*telefono */
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .ArribaProducto {
+    background-color: black;
+    margin: -20px 3px -8px 3px; }
+    .ArribaProducto--ImagenProducto {
+      margin: 7px 1px -7px 7px;
+      width: 120px; }
+    .ArribaProducto--TituloProducto {
+      color: White;
+      position: absolute;
+      right: 55px;
+      bottom: 565px;
+      left: auto; }
+  .Relleno {
+    margin-top: -190px; }
+  .PosicionProducto {
+    position: relative;
+    bottom: 1px;
+    left: 1px; }
+    .PosicionProducto--Precio {
+      position: relative;
+      bottom: -430px;
+      left: 52px;
+      font-size: 32px;
+      width: 100px; }
+    .PosicionProducto--cuotas {
+      position: relative;
+      bottom: -406px;
+      left: 60px;
+      right: 0px;
+      font-size: 24px;
+      color: #5bb15b;
+      width: 100px; }
+    .PosicionProducto--Stock {
+      position: relative;
+      bottom: 110px;
+      left: 105px;
+      font-size: 18px;
+      color: #ffffff;
+      width: 155px;
+      font-family: serif;
+      background: green;
+      border-radius: 5px;
+      padding: 6px; }
+    .PosicionProducto--Nombre {
+      position: relative;
+      width: 80px;
+      bottom: 110px;
+      right: -195px;
+      font-size: 22px; }
+  .DemostracionDelProducto {
+    display: grid;
+    border-radius: 4px;
+    grid-template-columns: 70px;
+    grid-template-rows: 0px 70px 70px 70px 70px;
+    margin: 4px 0px 215px;
+    border: none;
+    padding: 0;
+    width: 350px; }
+    .DemostracionDelProducto--estilo {
+      margin: 70px 114px; }
+    .DemostracionDelProducto--estilo2 {
+      border: 1px solid #ffffff;
+      border-radius: 10px;
+      background: white; }
+    .DemostracionDelProducto--estilo3 {
+      border: 1px solid #ffffff;
+      border-radius: 10px;
+      background: white; }
+    .DemostracionDelProducto--estilo4 {
+      border: 1px solid #ffffff;
+      border-radius: 10px;
+      background: white; }
+    .DemostracionDelProducto--estilo5 {
+      border: 1px solid #ffffff;
+      border-radius: 10px;
+      background: white; }
+    .DemostracionDelProducto--Tamaño {
+      width: 240px; }
+  .ProductoVenta {
+    position: relative;
+    left: 115px;
+    bottom: 50px;
+    width: 11px; }
+    .ProductoVenta--Carrito {
+      position: absolute;
+      left: 98px;
+      bottom: 86px;
+      width: 160px;
+      font-size: 17px;
+      color: #fff;
+      background-color: #007bff;
+      border-color: #007bff;
+      border-radius: 6px;
+      padding: 7px; }
+    .ProductoVenta--Cantidad {
+      position: absolute;
+      left: 118px;
+      bottom: 41px;
+      width: 125px;
+      font-size: 15px;
+      color: #000;
+      background-color: #00bcd4;
+      border-color: #b4b8bd00;
+      border-radius: 6px;
+      padding: 7px; }
+    .ProductoVenta--BotonDeComprar {
+      position: absolute;
+      bottom: -3px;
+      left: 134px;
+      font-size: 17px;
+      color: #fff;
+      background-color: #007bff;
+      border-color: #007bff;
+      border-radius: 6px;
+      padding: 3px;
+      width: 93px; }
+    .ProductoVenta--BotonDeComprar:hover {
+      transition: 1s;
+      background-color: green;
+      border-color: green; }
+  .ModoCeluProductoVideo {
+    width: 350px; } }
+
+/*Celular Index(Menu)*/
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .ArribaIndex {
+    background-color: black;
+    margin: -20px 3px -8px 3px; }
+    .ArribaIndex--imagenDelLogoH {
+      margin: 7px 1px -7px 7px; }
+    .ArribaIndex--TituloI {
+      color: White;
+      position: absolute;
+      right: 55px;
+      bottom: 565px;
+      left: auto; }
+    .ArribaIndex--ImagenI {
+      margin: 7px 1px -7px 7px; }
+  .IndexBusqueda {
+    font-size: 16px;
+    padding: 1px 10px 1px 5px;
+    background-color: white;
+    border: 0;
+    border-radius: 6px;
+    color: black; }
+  .LoMasPopular {
+    margin: 5px 4px 5px 55px;
+    width: 329px;
+    color: black;
+    font-family: 'Merriweather', serif; }
+  .ContenedorLoMasPopular {
+    background-color: white;
+    margin: 15px 0px 15px -16px; }
+  .LoUltimoVisto {
+    margin: 5px 4px 5px 92px;
+    width: 292px;
+    color: black;
+    font-family: 'Merriweather', serif; }
+  .ContenedorUltimoVisto {
+    background-color: white;
+    margin: 15px 0px 15px -16px; }
+  .TextProduc__Tamaño {
+    width: 112px;
+    font-size: 30px;
+    margin: 7px 0px 0px 25px; }
+    .TextProduc__Tamaño--Estilo {
+      font-family: initial;
+      color: black; }
+  .TextProduc--CambioP {
+    color: green;
+    font-size: 18px;
+    width: 193px;
+    margin: 0px 2px 5px 11px; }
+  .TextProduc--ColorP {
+    color: green;
+    margin: 0px 0px 22px 11px; }
+  .ContenedorProducto {
+    display: flex;
+    width: 80%;
+    margin: 0px 1px 0px 28px;
+    border: 0px;
+    flex-wrap: wrap; }
+    .ContenedorProducto--Productos {
+      margin: 10px 0px 0px 13px;
+      border-radius: 14px;
+      cursor: pointer; }
+    .ContenedorProducto--Text {
+      margin: 0px 0px 0px 10px;
+      font-size: 14px;
+      color: black; }
+    .ContenedorProducto--Productos:hover {
+      transition: 1s;
+      border-color: black; }
+    .ContenedorProducto--Img {
+      margin: 19px 0px 0px 0px; }
+    .ContenedorProducto--Img2 {
+      margin: 19px 0px 0px 0px; }
+    .ContenedorProducto--Img3 {
+      margin: 19px 0px 0px 0px; }
+  .SocialDelIndex {
+    margin: 0px 0px -41px 0px;
+    text-align: right; }
+    .SocialDelIndex--TamañoIndex {
+      width: 40px; } }
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .ArribaSesion {
+    background-color: black;
+    margin: -20px 3px -8px 3px; }
+    .ArribaSesion--imagenDelLogoH {
+      margin: 7px 1px -7px 7px; }
+    .ArribaSesion--TituloS {
+      color: White;
+      position: absolute;
+      right: 55px;
+      bottom: 565px;
+      left: auto; }
+    .ArribaSesion--ImagenS {
+      margin: 7px 1px -7px 7px; }
+  .InicioDeSesion {
+    padding: 32px;
+    border: 1px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 17px 7px 0px 4px; }
+    .InicioDeSesion__Titulo {
+      font-size: 40px; }
+      .InicioDeSesion__Titulo--Decoracion {
+        font-family: erif;
+        text-align: center; }
+  .BotonDeInicioDeSesion {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 6px;
+    padding: 7px;
+    font-size: 17px;
+    width: 128px;
+    margin-left: 75px; }
+  .form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    border-radius: 2px; }
+  .BotonDeInicioDeSesion:hover {
+    background-color: green;
+    border-color: green; }
+  .Social {
+    margin: 0px 0px -41px 0px;
+    text-align: right; }
+    .Social--Tamaño {
+      width: 40px; } }
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .ArribaCrear {
+    background-color: black;
+    margin: -20px 3px -8px 3px; }
+    .ArribaCrear--imagenDelLogoH {
+      margin: 7px 1px -7px 7px; }
+    .ArribaCrear--TituloC {
+      color: White;
+      position: absolute;
+      right: 55px;
+      bottom: 565px;
+      left: auto; }
+    .ArribaCrear--ImagenC {
+      margin: 7px 1px -7px 7px; }
+  .CrearCuenta {
+    padding: 0px;
+    border: 1px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 10px 2px 60px 2px; }
+    .CrearCuenta__Titulo {
+      Text-align: Center; }
+      .CrearCuenta__Titulo--Tamaño {
+        font-family: erif; }
+    .CrearCuenta__Nombre {
+      margin: 28px 26px 31px 25px; }
+      .CrearCuenta__Nombre--Estilo {
+        width: 285px;
+        padding: 7px;
+        border: none;
+        margin: 10px 10px 15px 46px;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 1px solid;
+        background-color: transparent;
+        border-radius: 2px; }
+      .CrearCuenta__Nombre--Estilos {
+        width: 294px;
+        padding: 7px;
+        border: none;
+        margin: 10px 387px 15px 42px;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 1px solid;
+        background-color: transparent;
+        border-radius: 2px; }
+  .EleccionCrearCuenta {
+    width: 17px;
+    background: #ffffff00;
+    border: 0;
+    color: black;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    bottom: -1px;
+    left: 55px; }
+  .EleccionCrearCuenta:hover {
+    transition: 0.5s;
+    width: 111px; }
+  .Terminos {
+    margin: 10px 0px 0px 60px; }
+  .botonDeCrearCuenta {
+    margin: -7px 18px -27px 131px;
+    padding: 2px 1px 20px 0px; }
+    .botonDeCrearCuenta--Diseño {
+      color: #fff;
+      background-color: #007bff;
+      border-color: #007bff;
+      border-radius: 6px;
+      padding: 7px;
+      font-size: 16px; }
+    .botonDeCrearCuenta--Diseño:hover {
+      transition: 0.5s;
+      color: #fff;
+      background-color: green;
+      border-color: green; } }
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .Arriba {
+    background-color: black;
+    margin: -20px 3px -8px 3px; }
+    .Arriba--imagenDelLogoH {
+      margin: 7px 1px -7px 7px; }
+    .Arriba--LogoHistorial {
+      color: White;
+      position: absolute;
+      right: 55px;
+      bottom: 565px;
+      left: auto; }
+  .Titulos {
+    text-align: center;
+    border: none;
+    padding: 20px;
+    margin: 175px 0px 335px 0px;
+    background-color: #101010a3;
+    border-radius: 9px; }
+    .Titulos--Tamaños {
+      font-size: 30px;
+      font-family: initing;
+      color: white;
+      bacgraund: black; } }
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .ArribaContacto {
+    background-color: black;
+    margin: -20px 3px -8px 3px; }
+    .ArribaContacto--imagenDelLogoH {
+      margin: 7px 1px -7px 7px; }
+    .ArribaContacto--TituloContacto {
+      color: White;
+      position: absolute;
+      right: 55px;
+      bottom: 565px;
+      left: auto; }
+    .ArribaContacto--ImagenContacto {
+      margin: 7px 1px -7px 7px; }
+  .Contacto {
+    padding: 16px;
+    border: 1px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 6px 5px -30px 5px; }
+    .Contacto--TituloCuestionario {
+      text-align: center;
+      font-family: erif; }
+    .Contacto--TextoContacto {
+      font-size: 17px;
+      background: transparent;
+      display: initial;
+      width: 222px;
+      padding: 7px;
+      border: none;
+      margin: 15px -86px 30px 53px;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 1px solid;
+      background-color: transparent;
+      border-radius: 2px; }
+    .Contacto--TextoContacto2 {
+      font-size: 17px;
+      background: transparent;
+      display: initial;
+      width: 222px;
+      padding: 7px;
+      border: none;
+      margin: 15px -86px 30px 53px;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 1px solid;
+      background-color: transparent;
+      border-radius: 2px; }
+    .Contacto--TextoContacto3 {
+      font-size: 17px;
+      display: initial;
+      width: 224px;
+      padding: 7px;
+      border: none;
+      margin: 21px 51px 30px 53px;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 1px solid;
+      background-color: transparent;
+      border-radius: 2px; }
+    .Contacto--TextoContacto4 {
+      font-size: 17px;
+      background: transparent;
+      display: initial;
+      width: 222px;
+      padding: 7px;
+      border: none;
+      margin: 15px -86px 30px 53px;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 1px solid;
+      background-color: transparent;
+      border-radius: 2px; }
+  .Eleccion {
+    width: 20px;
+    background: transparent;
+    border: 0;
+    color: gray;
+    margin: 0px 0px 0px 59px; }
+  .Eleccion:focus {
+    transition: 0.5s;
+    width: 111px; }
+  .Consentimiento {
+    margin: 4px -25px 14px 0px;
+    font-size: 13px; }
+  .BotonDeContactanos {
+    margin: 4px 24px 7px 124px; }
+    .BotonDeContactanos--Diseño {
+      color: #fff;
+      background-color: #007bff;
+      border-color: #007bff;
+      border-radius: 6px;
+      padding: 7px;
+      font-size: 17px;
+      width: 90px; }
+    .BotonDeContactanos--Diseño:hover {
+      color: #fff;
+      background-color: green;
+      border-color: green;
+      border-radius: 6px;
+      padding: 7px;
+      font-size: 17px;
+      width: 90px; } }
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .ArribaCrearPc {
+    background-color: black;
+    margin: -20px 3px -8px 3px; }
+    .ArribaCrearPc--ImagenCrearPc {
+      margin: 7px 1px -7px 7px; }
+    .ArribaCrearPc--TituloCrearPc {
+      color: White;
+      position: absolute;
+      right: 55px;
+      bottom: 565px;
+      left: auto; }
+  .Seleccionado1 {
+    padding: 0px;
+    margin: 6px 1px 2px 0px;
+    background: transparent;
+    border: transparent;
+    border-radius: 5px; }
+    .Seleccionado1__estilo {
+      width: 50px;
+      font-size: 0px;
+      border: 1px solid;
+      border-radius: 5px;
+      margin-top: 0px;
+      cursor: pointer;
+      /*
+    &--Text{
+    font-size: 0px;
+    }
+    &--Text:focus{
+    transition: 1s;
+    font-size: 20px;
+    }*/ }
+  .Seleccionado2 {
+    padding: 0px;
+    margin: 6px 1px 2px 0px;
+    background: transparent;
+    border: transparent;
+    border-radius: 5px; }
+    .Seleccionado2__estilo {
+      width: 50px;
+      font-size: 0px;
+      border: 1px solid;
+      border-radius: 5px;
+      margin-top: 0px;
+      cursor: pointer; }
+  .Seleccionado3 {
+    padding: 0px;
+    margin: 6px 1px 2px 0px;
+    background: transparent;
+    border: transparent;
+    border-radius: 5px; }
+    .Seleccionado3__estilo {
+      width: 50px;
+      font-size: 0px;
+      border: 1px solid;
+      border-radius: 5px;
+      margin-top: 0px;
+      cursor: pointer; }
+  .Seleccionado4 {
+    padding: 0px;
+    margin: 6px 1px 2px 0px;
+    background: transparent;
+    border: transparent;
+    border-radius: 5px; }
+    .Seleccionado4__estilo {
+      width: 50px;
+      font-size: 0px;
+      border: 1px solid;
+      border-radius: 5px;
+      margin-top: 0px;
+      cursor: pointer; }
+  .Seleccionado5 {
+    padding: 0px;
+    margin: 6px 1px 2px 0px;
+    background: transparent;
+    border: transparent;
+    border-radius: 5px; }
+    .Seleccionado5__estilo {
+      width: 50px;
+      font-size: 0px;
+      border: 1px solid;
+      border-radius: 5px;
+      margin-top: 0px;
+      cursor: pointer; }
+  .Seleccionado6 {
+    padding: 0px;
+    margin: 6px 1px 2px 0px;
+    background: transparent;
+    border: transparent;
+    border-radius: 5px; }
+    .Seleccionado6__estilo {
+      width: 50px;
+      font-size: 0px;
+      border: 1px solid;
+      border-radius: 5px;
+      margin-top: 0px;
+      cursor: pointer; }
+  .Seleccionado7 {
+    padding: 0px;
+    margin: 6px 1px 2px 0px;
+    background: transparent;
+    border: transparent;
+    border-radius: 5px; }
+    .Seleccionado7__estilo {
+      width: 50px;
+      font-size: 0px;
+      border: 1px solid;
+      border-radius: 5px;
+      margin-top: 0px;
+      cursor: pointer; }
+  .Seleccionado8 {
+    padding: 0px;
+    margin: 6px 1px 2px 0px;
+    background: transparent;
+    border: transparent;
+    border-radius: 5px; }
+    .Seleccionado8__estilo {
+      width: 50px;
+      font-size: 0px;
+      border: 1px solid;
+      border-radius: 5px;
+      margin-top: 0px;
+      cursor: pointer; }
+  .Seleccionado9 {
+    padding: 0px;
+    margin: 6px 1px 2px 0px;
+    background: transparent;
+    border: transparent;
+    border-radius: 5px; }
+    .Seleccionado9__estilo {
+      width: 50px;
+      font-size: 0px;
+      border: 1px solid;
+      border-radius: 5px;
+      margin-top: 0px;
+      cursor: pointer; }
+  .Seleccionado10 {
+    padding: 0px;
+    margin: 6px 1px 2px 0px;
+    background: transparent;
+    border: transparent;
+    border-radius: 5px; }
+    .Seleccionado10__estilo {
+      width: 50px;
+      font-size: 0px;
+      border: 1px solid;
+      border-radius: 5px;
+      margin-top: 0px;
+      cursor: pointer; }
+  .Seleccionado11 {
+    padding: 0px;
+    margin: 6px 1px 2px 0px;
+    background: transparent;
+    border: transparent;
+    border-radius: 5px; }
+    .Seleccionado11__estilo {
+      width: 50px;
+      font-size: 0px;
+      border: 1px solid;
+      border-radius: 5px;
+      margin-top: 0px;
+      cursor: pointer; }
+  .Seleccionado1:focus {
+    background-color: white; }
+  .Seleccionado2:focus {
+    background-color: white; }
+  .Seleccionado3:focus {
+    background-color: white; }
+  .Seleccionado4:focus {
+    background-color: white; }
+  .Seleccionado5:focus {
+    background-color: white; }
+  .Seleccionado6:focus {
+    background-color: white; }
+  .Seleccionado7:focus {
+    background-color: white; }
+  .Seleccionado8:focus {
+    background-color: white; }
+  .Seleccionado9:focus {
+    background-color: white; }
+  .Seleccionado10:focus {
+    background-color: white; }
+  .Seleccionado11:focus {
+    background-color: white; } }

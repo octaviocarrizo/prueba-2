@@ -1,0 +1,128 @@
+/*Contacto*/
+
+.ArribaContacto{
+	background-color: black;
+    margin: -20px 3px -8px 3px;
+	&--imagenDelLogoH{
+	margin: 7px 1px -7px 7px;
+	}
+	&--TituloContacto{
+    color: White;
+    position: absolute;
+    left: 895px;
+    right: 8px;
+    bottom: 838px;
+    font-size: 40px;
+    font-family: initial;
+    }
+    &--ImagenContacto{
+    margin: 7px 1px -7px 7px;
+    }
+} 
+
+.Contacto{
+    padding: 77px;
+    border: 1px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 82px 467px 111px 480px;
+    &--TituloCuestionario{
+    text-align: center;
+    font-family: erif;    
+    }
+    &--TextoContacto{
+    font-size: 17px;
+    background: transparent;
+    display: initial;
+    width: 222px;
+    padding: 7px;
+    border: none;
+    margin: 15px -86px 30px 140px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    border-radius: 2px;    
+    }
+    &--TextoContacto2{
+    font-size: 17px;
+    background: transparent;
+    display: initial;
+    width: 222px;
+    padding: 7px;
+    border: none;
+    margin: 15px -86px 30px 140px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    border-radius: 2px;   
+    }
+    &--TextoContacto3{
+    font-size: 17px;
+    display: initial;
+    width: 222px;
+    padding: 7px;
+    border: none;
+    margin: 15px 160px 30px 140px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    border-radius: 2px;   
+    }
+    &--TextoContacto4{
+    font-size: 17px;
+    background: transparent;
+    display: initial;
+    width: 222px;
+    padding: 7px;
+    border: none;
+    margin: 15px -86px 30px 140px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    border-radius: 2px;    
+    }
+    }
+
+.Eleccion{
+    width: 20px;
+    background: transparent;
+    border: 0;
+    color: gray;
+    margin: 0px 0px 0px 140px;
+    }
+.Eleccion:focus{
+    transition: 0.5s;
+    width: 111px;
+}
+.Consentimiento{
+ margin: 4px -25px 14px 145px;
+}
+.BotonDeContactanos{
+   margin: 4px 24px -41px 351px;
+    &--Diseño{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 6px;
+    padding: 7px;
+    font-size: 17px;
+    width: 90px; 
+    }
+    &--Diseño:hover{
+    color: #fff;
+    background-color: green;
+    border-color: green;
+    border-radius: 6px;
+    padding: 7px;
+    font-size: 17px;
+    width: 90px; 
+    }
+    }

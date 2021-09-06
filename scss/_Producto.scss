@@ -1,0 +1,140 @@
+/*Producto*/
+.ArribaProducto{
+	background-color: black;
+    margin: -20px 3px -8px 3px;
+	&--ImagenProducto{
+	margin: 7px 1px -7px 7px;
+	}
+	&--TituloProducto{
+    color: White;
+    position: absolute;
+    left: 895px;
+    right: 8px;
+    bottom: 838px;
+    font-size: 40px;
+    font-family: initial;
+} 
+} 
+.PosicionProducto{
+	position: absolute;
+    bottom: 344px;
+    left: 860px;
+	&--Precio{
+    position: absolute;
+    bottom: 75px;
+    left: 175px;
+    font-size: 33px;
+	}
+	&--cuotas{
+	position: absolute;
+    bottom: 51px;
+    left: 178px;
+    font-size: 24px;
+    color: #5bb15b;
+	}
+	&--Stock{
+	position: absolute;
+    bottom: 213px;
+    left: 470px;
+    font-size: 18px;
+    color: #ffffff;
+    width: 155px;
+    font-family: serif;
+    background: green;
+    border-radius: 5px;
+    padding: 6px;
+	}
+	&--Nombre{
+	position: absolute;
+    width: 500px;
+    bottom: 201px;
+    right: -280px;
+    font-size: 40px;
+	}
+}
+.DemostracionDelProducto{
+    border: 1px solid;
+    display: grid;
+    width: 1100px;
+    padding: 59px 0px 57px 29px;
+    margin-top: 100px;
+    border-radius: 4px;
+    grid-template-columns: 70px;
+    grid-template-rows: 0px 70px 70px 70px 70px;
+    grid-column-gap: 0px;
+    grid-row-gap: 19px;
+    margin: 0px 395px 60px;
+	&--estilo{
+	margin:0px 120px;
+	}
+	&--estilo2{
+	border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: white;
+	}
+	&--estilo3{
+	border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: white;
+	}
+	&--estilo4{
+	border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: white;
+	}
+	&--estilo5{
+	border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: white;
+	}	
+}
+
+.ProductoVenta{
+	position: absolute;
+    left: 1170px;
+    bottom: 170px;
+	&--Carrito{
+    position: absolute;
+    left: 98px;
+    bottom: 86px;
+    width: 160px;
+    font-size: 17px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 6px;
+    padding: 7px;
+	}
+	&--Cantidad{
+    position: absolute;
+    left: 118px;
+    bottom: 41px;
+    width: 125px;
+    font-size: 15px;
+    color: #000;
+    background-color: #00bcd4;
+    border-color: #b4b8bd00;
+    border-radius: 6px;
+    padding: 7px;
+	}
+	&--BotonDeComprar{
+	position: absolute;
+    bottom: -3px;
+    left: 134px;
+    font-size: 17px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 6px;
+    padding: 3px;
+    width: 93px;
+	}
+	&--BotonDeComprar:hover{
+	transition: 1s;
+	background-color:green;
+	border-color:green;
+	}
+}
+.Relleno{
+	margin-top: 140px;
+	}	

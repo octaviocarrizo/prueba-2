@@ -1,0 +1,153 @@
+/*telefono */
+
+@media only screen and (min-width: 375px) and (max-width: 667px){
+
+.ArribaProducto{
+	background-color: black;
+    margin: -20px 3px -8px 3px;
+	&--ImagenProducto{
+	margin: 7px 1px -7px 7px;
+	width: 120px;
+	}
+	&--TituloProducto{
+    color: White;
+    position: absolute;
+    right: 55px;
+    bottom: 565px;
+    left: auto;
+} 	
+}
+.Relleno{
+	margin-top: -190px;
+}
+ 
+.PosicionProducto{
+	position: relative;
+    bottom: 1px;
+    left: 1px;
+	&--Precio{
+	position: relative;
+    bottom: -430px;
+    left: 52px;
+    font-size: 32px;
+    width: 100px;
+	}
+	&--cuotas{
+    position: relative;
+    bottom: -406px;
+    left: 60px;
+    right: 0px;
+    font-size: 24px;
+    color: #5bb15b;
+    width: 100px
+	}
+	&--Stock{
+	position: relative;
+    bottom: 110px;
+    left: 105px;
+    font-size: 18px;
+    color: #ffffff;
+    width: 155px;
+    font-family: serif;
+    background: green;
+    border-radius: 5px;
+    padding: 6px;
+	}
+	&--Nombre{
+	position: relative;
+    width: 80px;
+    bottom: 110px;
+    right: -195px;
+    font-size: 22px;
+	}
+}
+
+.DemostracionDelProducto{
+    display: grid;
+    border-radius: 4px;
+    grid-template-columns: 70px;
+    grid-template-rows: 0px 70px 70px 70px 70px;
+    margin: 4px 0px 215px;
+    border: none;
+    padding: 0;
+    width: 350px;
+	&--estilo{
+	margin:70px 114px;
+	}
+	&--estilo2{
+	border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: white;
+	}
+	&--estilo3{
+	border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: white;
+	}
+	&--estilo4{
+	border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: white;
+	}
+	&--estilo5{
+	border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: white;
+	}
+	&--Tamaño{
+		width: 240px;
+	}	
+}
+
+.ProductoVenta{
+	position: relative;
+    left: 115px;
+    bottom: 50px;
+    width: 11px;
+	&--Carrito{
+    position: absolute;
+    left: 98px;
+    bottom: 86px;
+    width: 160px;
+    font-size: 17px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 6px;
+    padding: 7px;
+	}
+	&--Cantidad{
+    position: absolute;
+    left: 118px;
+    bottom: 41px;
+    width: 125px;
+    font-size: 15px;
+    color: #000;
+    background-color: #00bcd4;
+    border-color: #b4b8bd00;
+    border-radius: 6px;
+    padding: 7px;
+	}
+	&--BotonDeComprar{
+	position: absolute;
+    bottom: -3px;
+    left: 134px;
+    font-size: 17px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 6px;
+    padding: 3px;
+    width: 93px;
+	}
+	&--BotonDeComprar:hover{
+	transition: 1s;
+	background-color:green;
+	border-color:green;
+	}
+}
+
+.ModoCeluProductoVideo{
+	width: 350px;
+} 
+}

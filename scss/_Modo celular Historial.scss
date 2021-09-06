@@ -1,0 +1,31 @@
+@media only screen and (min-width: 375px) and (max-width: 667px){
+	.Arriba{
+	background-color: black;
+    margin: -20px 3px -8px 3px;
+	&--imagenDelLogoH{
+	margin: 7px 1px -7px 7px;
+	}
+	&--LogoHistorial{
+	color: White;
+    position: absolute;
+    right: 55px;
+    bottom: 565px;
+    left: auto;
+} 
+}
+.Titulos{
+    text-align: center;
+    border: none;
+    padding: 20px;
+    margin: 175px 0px 335px 0px;
+    background-color: #101010a3;
+    border-radius: 9px;
+	&--Tamaños{
+	font-size:30px;
+	font-family:initing;
+	color:white;
+	bacgraund:black;
+	}
+}
+
+}

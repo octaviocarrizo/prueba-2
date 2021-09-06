@@ -1,0 +1,67 @@
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+	.ArribaSesion{
+    background-color: black;
+   margin: -20px 3px -8px 3px;
+    &--imagenDelLogoH{
+    margin: 7px 1px -7px 7px;
+    }
+    &--TituloS{
+    color: White;
+    position: absolute;
+    right: 55px;
+    bottom: 565px;
+    left: auto;
+    }
+    &--ImagenS{
+    margin: 7px 1px -7px 7px;
+    }
+} 
+.InicioDeSesion{
+    padding: 32px;
+    border: 1px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 17px 7px 0px 4px;
+    &__Titulo{
+    font-size: 40px;
+	    &--Decoracion{
+	    font-family:erif;
+	    text-align: center;
+	    }
+    }
+}
+.BotonDeInicioDeSesion{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 6px;
+    padding: 7px;
+    font-size: 17px;
+    width: 128px;
+    margin-left: 75px;
+}
+
+.form-control{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    border-radius: 2px;
+
+}
+
+.BotonDeInicioDeSesion:hover{
+    background-color: green;
+   border-color: green;
+}
+
+.Social{
+	margin: 0px 0px -41px 0px;
+	text-align: right;
+	&--Tamaño{
+	width:40px;
+	}
+}
+
+}
